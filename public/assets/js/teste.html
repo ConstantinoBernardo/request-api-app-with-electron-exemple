@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Constantino Bernardo">
+		<title>Numpy</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Fonts -->
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="assets/css/dashboard.css" rel="stylesheet">
+		<link href="assets/css/_forms.scss" rel="stylesheet">
+		
+		<link href="assets/vendor/codemirror/codemirror.min.css" rel="stylesheet">
+		<link href="assets/vendor/codemirror/themes/rdark.css" rel="stylesheet">
+
+		<!--Scripts-->
+		<script src="assets/vendor/axios/axios.min.js" ></script>
+		<script src="assets/vendor/codemirror/codemirror.min.js"></script>
+	</head>
+	<body class="bg-dark">
+
+<textarea id="tt">
+import XL from "xl"
+console.log(XL)
+
+</textarea>
+
+<script type="module">
+  import CreteEditor from "./assets/js/editor.js"
+
+  let x=CreteEditor('#tt','text/json','rdark')
+	console.log(x)
+</script>
+	</body>
+</html>

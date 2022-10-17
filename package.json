@@ -1,0 +1,25 @@
+{
+  "name": "numpy",
+  "version": "1.0.0",
+  "description": "A minimal Electron application for request API",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ConstantinoBernardo/electron-request-api-aplication",
+  "keywords": [
+    "Electron",
+    "Axios",
+    "Express",
+    "Exemple",
+    "Vue-js"
+  ],
+  "author": "Constantino Bernardo",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^20.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
