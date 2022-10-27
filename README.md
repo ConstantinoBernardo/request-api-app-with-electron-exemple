@@ -1,4 +1,4 @@
-# electron-request-api-aplication
+# request-api-app-with-electron-emple
 
 **Clone and run for a quick way to see Electron in action.**
 
