@@ -20,10 +20,9 @@ function createWindow () {
 		}
 	})
 
-	Menu(mainWindow)
+	//Menu(mainWindow)
 	mainWindow.loadURL(`http://localhost:${port}`)
-				
-	mainWindow.webContents.openDevTools()
+	//mainWindow.webContents.openDevTools()
 }
 
 app.whenReady().then(() => {
